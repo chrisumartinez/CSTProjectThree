@@ -1,0 +1,29 @@
+#:kivy 1.0.9
+<GUI>
+    Label:
+        font_size: 26
+        text: "LSD"
+        # pos: root.width / 2, root.top - 200
+        center_x: root.width / 2
+        center_y: root.top - 200
+        font_size: 60
+
+<uploadButton>
+    Button:
+        font_size: 12
+        top: root.top / 2
+        size: self.parent.size
+        text:"Upload"
+        # pos: root.width / 2, root.top / 2
+        center_x: root.width / 2
+        center_y: root.top / 2
+        on_release: root.callback()
+<canvasPainting>
+    Button:
+        font_size: 12
+        text: "Canvas Painting"
+        center_x: root.width / 2 + 200
+        center_y: root.top / 2
+        # top: root.top / 2
+        # pos: root.width / 2 + 200, root.top / 2
+        on_release: root.callback()
