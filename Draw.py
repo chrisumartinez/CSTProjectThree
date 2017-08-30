@@ -2,6 +2,9 @@ import cv2
 import numpy as np
 import math
 import copy
+#ATTENTION: THIS PROGRAM IS BUILT FROM EXISTING CODE
+#ORIGINAL HAND RECOGNITION CODE ACQUIRED FROM https://github.com/vipul-sharma20/gesture-opencv/blob/master/gesture.py
+
 
 cap = cv2.VideoCapture(0)
 traillist = []
